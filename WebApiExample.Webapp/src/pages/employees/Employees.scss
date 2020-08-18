@@ -1,0 +1,29 @@
+%bkg_img_style {
+  height: 18em;
+  bottom: 0;
+  position: inherit;
+}
+
+.page {
+  &.employee {
+    .tableComponent {
+      max-width: 80em;
+      z-index: 2;
+    }
+
+    .bkgImages {
+      height: 100%;
+      position: absolute;
+      z-index: 0;
+
+      #bkg_1 {
+        @extend %bkg_img_style;
+        left: 0;
+      }
+      #bkg_2 {
+        @extend %bkg_img_style;
+        right: 3em;
+      }
+    }
+  }
+}

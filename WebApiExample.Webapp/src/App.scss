@@ -1,0 +1,31 @@
+body{
+  overflow-x: hidden;
+}
+
+.page {
+  height: 100vh;
+  align-content: center;
+  background-color: #f7f7f7;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 1em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a8a8a;
+}

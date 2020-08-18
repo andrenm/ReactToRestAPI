@@ -1,0 +1,138 @@
+%header-font {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+$padding-min: 0.8em;
+$padding-max: 1.5em;
+
+$border-radius-max: 0.8em;
+$border-radius-min: 0.4em;
+
+%row-padding-min {
+  padding-top: $padding-min;
+  padding-bottom: $padding-min;
+}
+
+%row-padding-max {
+  padding-top: $padding-max;
+  padding-bottom: $padding-max;
+}
+
+%input-label-style {
+  color: #6f77c9;
+  font-weight: 500;
+}
+
+.table {
+  height: auto;
+  max-height: 80%;
+  min-width: 80em;
+  padding-bottom: $padding-max;
+  box-shadow: -4px 8px 20px 0px #9c9bc58c;
+  border-radius: $border-radius-max;
+  background-color: #fff;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  &__search {
+    padding: $padding-max;
+    background-color: #d3d7ff;
+
+    &__field {
+      padding-left: 2em;
+
+      &__name {
+        @extend %input-label-style;
+      }
+
+      &__input {
+        padding-top: $padding-min;
+
+        input {
+          height: 1.8em;
+          padding-left: $padding-min;
+          border: 2px solid transparent;
+          border-radius: $border-radius-min;
+          background-color: #fff;
+          outline: none;
+
+          &.active {
+            border: 2px solid #fcbad3;
+          }
+        }
+      }
+    }
+  }
+
+  &__header {
+    background-color: #ebedff;
+    &__line {
+      &__column {
+        @extend %row-padding-max;
+        @extend %input-label-style;
+        font-size: 1em;
+      }
+    }
+  }
+
+  &__body {
+    height: 45em;
+    background-color: #ffffff;
+    align-content: flex-start;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &__line {
+      &--hover {
+        font-weight: normal;
+        border-radius: $border-radius-min;
+        transition: background-color 0.3s ease-in-out color 0.3s ease-in-out font-weight 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          color: #fff;
+          font-weight: 500;
+          background-color: #fcbad3;
+          transition: background-color 0.3s ease-in-out color 0.3s ease-in-out font-weight 0.3s ease-in-out;
+        }
+      }
+
+      &__column {
+        @extend %row-padding-min;
+        height: 3em;
+        margin-top: $padding-min;
+        margin-bottom: $padding-min;
+        white-space: nowrap;
+        transform: translateX(0);
+        transition: transform 0.3s ease-in-out;
+        display: block;
+
+        &.hide {
+          transform: translateX(100em);
+          transition: transform 0.5s ease-in-out;
+        }
+        &.remove {
+          display: none;
+        }
+
+        .thumbnail {
+          img {
+            height: 3em;
+            width: 3em;
+            border-radius: 4em;
+            border: 2px solid #fff;
+          }
+        }
+      }
+    }
+  }
+  &__footer {
+    margin-right: $padding-max;
+    padding-top: $padding-min;
+
+    &__count {
+      @extend %input-label-style;
+    }
+  }
+}

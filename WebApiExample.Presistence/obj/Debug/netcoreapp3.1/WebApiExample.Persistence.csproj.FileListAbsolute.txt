@@ -1,0 +1,12 @@
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/bin/Debug/netcoreapp3.1/WebApiExample.Persistence.deps.json
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/bin/Debug/netcoreapp3.1/WebApiExample.Persistence.runtimeconfig.json
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/bin/Debug/netcoreapp3.1/WebApiExample.Persistence.runtimeconfig.dev.json
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/bin/Debug/netcoreapp3.1/WebApiExample.Persistence.dll
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/bin/Debug/netcoreapp3.1/WebApiExample.Persistence.pdb
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.csproj.CoreCompileInputs.cache
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.AssemblyInfoInputs.cache
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.AssemblyInfo.cs
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.dll
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.pdb
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.genruntimeconfig.cache
+/Users/andrenunesmailho/Projects/WebApiExample/WebApiExample.Presistence/obj/Debug/netcoreapp3.1/WebApiExample.Persistence.csprojAssemblyReference.cache

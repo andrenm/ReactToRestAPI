@@ -1,0 +1,78 @@
+.table__header__line__column {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.table__body__line__column {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+.table__header__line__column {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.table__header__line__column {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.table {
+  max-height: 70vh;
+  -webkit-box-shadow: -4px 8px 20px 0px #9c9bc58c;
+          box-shadow: -4px 8px 20px 0px #9c9bc58c;
+  border-radius: 0.8em;
+  overflow-y: hidden;
+  padding-bottom: 12em;
+}
+
+.table__search {
+  padding: 1.5em;
+  background-color: #d3d7ff;
+}
+
+.table__search__field {
+  padding-left: 2em;
+}
+
+.table__search__field__name {
+  color: #6f77c9;
+  font-weight: 500;
+}
+
+.table__search__field__input {
+  padding-top: 0.8em;
+}
+
+.table__search__field__input input {
+  height: 1.8em;
+  padding-left: 0.5em;
+  border: none;
+  border-radius: 0.4em;
+  background-color: #fff;
+}
+
+.table__header {
+  background-color: #f1f1f1;
+}
+
+.table__body {
+  max-height: 100%;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.table__body__line {
+  height: 4em;
+  border-bottom: 0.1em solid #f1f1f1;
+}
+
+.table__body__line__column {
+  overflow: hidden;
+}
+
+.table__body__line__column img {
+  height: 3em;
+}
+/*# sourceMappingURL=Table.css.map */
