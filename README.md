@@ -36,6 +36,11 @@ https://code.visualstudio.com/Download<br />
 - You’ll also need Node.js and npm to execute react and to download all packages with npm instruction: <br />
 https://nodejs.org/en/<br />
 
+**Creating the DataBase**<br />
+- You can use your own database if you like (of course). For this example, i'm using the script called Script_create_database.sql to create the tables we will need. This is a Microsoft SQL Server script.
+
+- You have to change the name of the server with your connection string as well. Just go to WebApiExample.External > appsettings.json > WebApiExampleConnectionString and change the values like this: <code>"Server=[Your connection string];Database=[Your database name];Trusted_Connection=True;"</code>
+
 **Executing server side project<br />**
 - Let’s execute the project WebApiExample.External. Click in the name of the project with the right button and select “set as a startup project”. Now click in the play button in the top menu. 
 
@@ -133,6 +138,11 @@ https://code.visualstudio.com/download <br />
 
 - Você também vai precisar Node.js e npm para executar o código React.js e baixar todos os pacotes: <br />
 https://nodejs.org/en/ <br />
+
+**Creating the DataBase**<br />
+- Você pode usar seu próprio banco de dados se quiser (é claro). Para este exemplo, estou usando o script chamado Script_create_database.sql para criar as tabelas  que precisamos. Este é um script para Microsoft SQL Server.
+
+- Você também deve alterar o nome do servidor com sua string de conexão. Basta ir para WebApiExample.External> appsettings.json> WebApiExampleConnectionString e alterar os seguintes valores:<code>"Server=[Your connection string];Database=[Your database name];Trusted_Connection=True;"</code>
  
 **A execução do lado do servidor do projeto**<br /> 
 - Vamos executar o projeto WebApiExample.External. Clique no nome do projeto com o botão direito e selecione “definir como projeto de inicialização”. Agora clique no botão play no menu superior.
