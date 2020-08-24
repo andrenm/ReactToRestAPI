@@ -139,7 +139,7 @@ https://code.visualstudio.com/download <br />
 - Você também vai precisar Node.js e npm para executar o código React.js e baixar todos os pacotes: <br />
 https://nodejs.org/en/ <br />
 
-**Creating the DataBase**<br />
+**Criando a base de dados**<br />
 - Você pode usar seu próprio banco de dados se quiser (é claro). Para este exemplo, estou usando o script chamado Script_create_database.sql para criar as tabelas  que precisamos. Este é um script para Microsoft SQL Server.
 
 - Você também deve alterar o nome do servidor com sua string de conexão. Basta ir para WebApiExample.External> appsettings.json> WebApiExampleConnectionString e alterar os seguintes valores:<code>"Server=[Your connection string];Database=[Your database name];Trusted_Connection=True;"</code>
